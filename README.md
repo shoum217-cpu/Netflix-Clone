@@ -4,6 +4,10 @@ A responsive Netflix landing page clone built using HTML5 and CSS3. This project
 
 The goal of this project was to improve my understanding of HTML and CSS by replicating a real-world website as closely as possible while maintaining clean and organized code.
 
+## Live Website
+
+🔗 Website: https://shoumflix-2007.netlify.app/
+
 ## Features
 
 * Responsive layout for different screen sizes
