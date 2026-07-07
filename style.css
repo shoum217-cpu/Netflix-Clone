@@ -69,11 +69,18 @@ body {
 .leftover-nav-button {
     background-color: red;
     color: white;
-    border: 2px solid red;
+    border: 1px solid red;
     padding: 5px 10px;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 15px
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.leftover-nav-button:hover {
+    background-color: rgb(192, 36, 36);
+    border: 1px solid rgb(192, 36, 36);
 }
 
 .MainText {
@@ -109,7 +116,6 @@ body {
     font-size: 16px;
     margin-top: 20px;
     text-align: center;
-
 }
 
 .MainText-buttons {
@@ -142,6 +148,7 @@ body {
     background-color: red;
     border: 1px solid red;
     border-radius: 4px;
+    cursor: pointer;
     color: white;
     transition: all 0.4s ease;
 }
@@ -149,7 +156,6 @@ body {
 .MainText-buttons> :nth-child(2):hover {
     background-color: rgb(192, 36, 36);
     border: 1px solid rgb(192, 36, 36);
-
 }
 
 .line {
@@ -340,6 +346,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    cursor: pointer;
     transition: all 0.5s ease;
 }
 
@@ -360,6 +367,7 @@ h3 {
     font-family: "Netflix Sans", "Helvetica Neue", sans-serif;
     font-size: 17px;
     font-weight: 100;
+    text-align: center;
 }
 
 .MainText-buttons2 {
@@ -391,6 +399,7 @@ h3 {
     background-color: red;
     border: 1px solid red;
     border-radius: 4px;
+    cursor: pointer;
     color: white;
     transition: all 0.4s ease;
 }
@@ -581,6 +590,20 @@ a {
         height: auto;
         min-height: 220px;
     }
+
+    .poster2 p {
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+    .poster2 img {
+    position: absolute;
+    /* since this is absolute it depends on the position relative of .poster2 */
+    bottom: 20px;
+    right: 20px;
+    width: 50px;   /* pick whatever looks right on desktop */
+    height: auto;
+}
 
     /* ---- Part3: FAQ ---- */
     .Part3 {
